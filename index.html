@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vitor Hugo Lemes - Portfólio Profissional</title> 
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">Vitor Hugo Lemes</a>
+            </div>
+            <nav class="navbar">
+                <button class="menu-toggle" id="mobile-menu" aria-label="Menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+                <ul class="nav-list">
+                    <li><a href="index.html" class="active">Início</a></li>
+                    <li><a href="projects.html">Projetos</a></li>
+                    <li><a href="about.html">Sobre Mim</a></li>
+                    <li><a href="contact.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="container hero-content">
+                <div class="hero-text">
+                    <h1>Olá, eu sou <span class="highlight">Vitor Hugo Lemes</span>!</h1>
+                    <p class="subtitle">Desenvolvedor Full-Stack apaixonado por criar soluções inovadoras e eficientes.</p>
+                    <p>Transformo ideias em realidade digital, com foco em interfaces de utilizador intuitivas e sistemas robustos.</p>
+                    <div class="hero-buttons">
+                        <a href="projects.html" class="btn btn-primary">Meus Projetos</a>
+                        <a href="contact.html" class="btn btn-secondary">Entre em Contato</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="img/index_foto.jpg" alt="Foto de Perfil de Vitor Lemes" onerror="this.onerror=null; this.src='https://placehold.co/400x400/007BFF/FFFFFF?text=Vitor+Lemes&font=poppins';">
+                </div>
+            </div>
+        </section>
+
+        <section id="featured-projects">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Projetos em Destaque</h2>
+                </div>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <img src="img/Renomeador.png" alt="Aplicativo Renomeador em Python" class="project-image" onerror="this.onerror=null; this.src='https://placehold.co/600x400/A9CCE3/2c3e50?text=Renomeador&font=poppins';">
+                        <div class="project-info">
+                            <h3>Aplicativo em python</h3>
+                            <p>Aplicativo feito com python com intuito de renomear diversos arquivos de uma única vez, como foco na agilidade e produtividade</p>
+                            <div class="project-tags">
+                                <span>App</span><span>Python</span><span>Vscode</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/Vitorhlem/Renomeador" target="_blank" class="btn btn-small btn-secondary">GitHub <i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <img src="img/EPI.png" alt="Detector de EPI" class="project-image" onerror="this.onerror=null; this.src='https://placehold.co/600x400/A9CCE3/2c3e50?text=Detector+EPI&font=poppins';">
+                        <div class="project-info">
+                            <h3>Detector EPI</h3>
+                            <p>Software de detecção de EPI usando Yolov8, com foco em melhorar a segurança no trabalho em empresas.</p>
+                            <div class="project-tags">
+                                <span>Yolov8</span><span>Detecção</span><span>Senai</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/Vitorhlem/Detector-de-EPI-com-Yolov8" target="_blank" class="btn btn-small btn-secondary">GitHub <i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="see-all-projects">
+                    <a href="projects.html" class="btn btn-primary btn-large">Ver Todos os Projetos</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="call-to-action">
+            <div class="container">
+                <h2>Interessado em colaborar ou tem alguma pergunta?</h2>
+                <p>Adoraria ouvir sobre suas ideias e como podemos trabalhar juntos para criar algo incrível.</p>
+                <a href="contact.html" class="btn btn-primary btn-large">Vamos Conversar! <i class="fas fa-comments"></i></a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="social-icons">
+                <a href="https://github.com/Vitorhlem" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/vitor-hugo-lemes-9aa073369" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <p>&copy; <span id="currentYear">2025</span> Vitor Hugo Lemes. Todos os direitos reservados.</p>
+            <p>Feito com <i class="fas fa-heart" style="color: var(--accent-color);"></i> e código.</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
